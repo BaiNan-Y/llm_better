@@ -1,0 +1,52 @@
+# Python 虚拟环境
+venv/
+.venv/
+llm_learn_venv/
+env/
+ENV/
+
+# Python 缓存/编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 数据/模型文件（通常体积大不入库）
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# 日志与临时文件
+logs/
+*.log
+.DS_Store
+Thumbs.db
